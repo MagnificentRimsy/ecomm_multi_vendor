@@ -24,6 +24,8 @@
 </head>
 
 <body>
+    
+
     <header class="header header--standard header--market-place-1" data-sticky="true">
         <div class="header__top">
             <div class="container">
@@ -43,7 +45,7 @@
         <div class="header__content">
             <div class="container">
                 <div class="header__content-left">
-                    <a class="ps-logo" href="index-2.html"><img src="img/logo.png" alt=""></a>
+                      <a class="ps-logo" href="index-2.html"><img src="img/logo.png" alt=""></a>
                 </div>
                 <div class="header__content-center">
                     <form class="ps-form--quick-search" action="http://nouthemes.net/html/martfury/index.html" method="get">
@@ -317,6 +319,7 @@
             </div>
         </div>
     </div>
+   
     <div class="ps-panel--sidebar" id="navigation-mobile">
         <div class="ps-panel__header">
             <h3>Categories</h3>
@@ -618,7 +621,7 @@
                 <ul class="breadcrumb">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="vendor-dashboard-pro.html">Vendor</a></li>
-                    <li>Add Product</li>
+                    <li>View Products</li>
                 </ul>
             </div>
         </div>
@@ -626,101 +629,70 @@
 
         <div class="ps-contact-form">
             <div class="container">
-                <form class="ps-form--contact-us" action="£" method="get">
-                    <h3>Create New Product</h3>
+                    <h3>Products</h3>
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Product Name<sup>*</sup>
-                                </label>
-                                <input class="form-control" type="text" placeholder="Name *">
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            
-                            <div class="form-group">
-                                <label>Select Product Category<sup>*</sup>
-                                </label>
-                                <div class="form-group__content">
-                                    <select class="form-control" name="product_category" id="">
-                                        <option value="1">Accessories</option>
-                                        <option value="2">Womens</option>
-                                        <option value="3">Men</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Manufacturer Name<sup>*</sup>
-                                </label>
-                                <input class="form-control" type="text" placeholder="Manufacturer *">
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Product Price<sup>*</sup>
-                                </label>
-                                <input class="form-control" type="number" placeholder="0.00 *">
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Made In<sup>*</sup>
-                                </label>
-                                <input class="form-control" type="text" placeholder="United Kingdom">
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Quantity<sup>*</sup>
-                                </label>
-                                <input class="form-control" type="number" placeholder="000 *">
-                            </div>
-                        </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Subject *">
-                            </div>
+                            <figure class="ps-block--vendor-status">
+                                <figcaption>All Available Products</figcaption>
+                                <table class="table ps-table ps-table--vendor">
+                                    <thead>
+                                        <tr>
+                                            <th>Order ID</th>
+                                            <th>Product</th>
+                                            <th>Quantity Available</th>
+                                            <th>Price</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="#">MS46891357</a>
+                                                <p>Nov 4, 2017</p>
+                                            </td>
+                                            
+                                            <td><a href="#">1 x Marshall Kilburn Portable...</a>
+                                                <p>Shipping</p>
+                                            </td>
+                                            <td>
+                                                <p>567</p>
+                                            </td>
+                                            <td>
+                                                <p>$295.47</p>
+                                                <p>$0.00</p>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="btn btn-info" style="color:#ffffff">Details</a>
+                                                <a href="#" class="btn btn-success"  style="color:#ffffff">Edit</a>
+                                                <a href="#" class="btn btn-danger"  style="color:#ffffff">Delete</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">MS46891357</a>
+                                                <p>Nov 2, 2017</p>
+                                            </td>
+                                            <td><a href="#">1 x Unero Military Classical Ba...</a>
+                                                <p>Shipping</p>
+                                            </td>
+                                            <td>
+                                                <p>123</p>
+                                            </td>
+                                            <td>
+                                                <p>$45.39</p>
+                                                <p>$0.00</p>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="btn btn-info"  style="color:#ffffff">Details</a>
+                                                <a href="#" class="btn btn-success"  style="color:#ffffff">Edit</a>
+                                                <a href="#" class="btn btn-danger"  style="color:#ffffff">Delete</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="ps-block__footer"><a href="#">View All Orders</a></div>
+                            </figure>
                         </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <div class="ps-checkbox">
-                                    <input class="form-control" type="checkbox" id="create-account">
-                                    <label for="create-account">Local Product</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <div class="ps-checkbox">
-                                    <input class="form-control" type="checkbox" id="cb01">
-                                    <label for="cb01">International</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <div class="form-group">
-                                <label>Additional Product Info</label>
-                                <div class="form-group__content">
-                                    <textarea class="form-control" rows="7" placeholder="Notes about your product-affiliate, e.g. special notes on product key features."></textarea>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-
-                        <div class="form-group submit">
-                            
-                            <button class="btn btn-danger">Cancel</button>
-                            <button class="btn btn-primary">Create Product</button>
-                        </div>
-                        <div class="form-group">
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
