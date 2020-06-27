@@ -2692,6 +2692,7 @@ textarea.form-control {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 0;
+  bottom: -20;
 }
 
 .ps-dropdown ul {
